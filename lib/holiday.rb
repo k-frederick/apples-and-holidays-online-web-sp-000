@@ -71,7 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
       #supply.each do |item|
         bbq_holiday << holiday if item == "BBQ"
       end
-    end
+    #end
   end
   bbq_holiday
 end
