@@ -71,6 +71,6 @@ def all_holidays_with_bbq(holiday_hash)
      bbq_holiday << holiday_event if supply.include?("BBQ")
    end
  end
- array_symbols
+ bbq_holiday
 
 end
